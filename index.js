@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(emailRouter);
 
 app.get('/', (req, res) => {
-  res.send('Portfolio Server');
+  res.send('Fornari Portfolio Server');
 });
 
 app.get('/start-server', (req, res) => {
